@@ -1,4 +1,16 @@
 aid: threadflip
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/threadflip.png
 name: Threadflip
 description: Threadflip is a company surfaced as a portfolio company of a16z, slow-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -13,7 +25,11 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-domain-status: unreachable
+x-domain-probe: 'apex threadflip.com has no A record (NXDOMAIN); www.threadflip.com
+  resolves to 157.245.61.74 but refuses TCP 80/443 — no reachable website or API
+  surface as of 2026-07-21'
 tags:
 - Company
 apis: []
@@ -25,3 +41,8 @@ maintainers:
 common:
 - type: Website
   url: https://threadflip.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
